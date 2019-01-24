@@ -1,0 +1,8 @@
+This Docker images extends the baseimage. Installs java jdk 1.8 update 201 and fitnesse
+
+to run docker run -d -p <port>:8070 -v <local_fitnesse_project_path>:/prj lawcab/fitnesse java -jar /usr/local/fitnesse/fitnesse-standalone.jar -e 0 -p 8070 -d /prj
+
+the <local_fitnesse_project_path> is where you want to save the fitnesse project files.
+
+to see the Fitnesse Page go to localhost:<port>
+
